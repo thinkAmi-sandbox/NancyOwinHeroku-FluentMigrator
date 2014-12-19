@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    Platform (0.4.0)
+    rack (1.6.0)
+    rake (10.4.2)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  Platform
+  rack
+  rake

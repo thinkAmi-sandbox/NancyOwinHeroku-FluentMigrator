@@ -1,9 +1,4 @@
-desc "Task Test"
-task :hello do
-  puts "Hello world"
-end
-
-task :connection do
+task :show do
   
   require 'uri'
   require 'platform'
@@ -28,6 +23,7 @@ task :connection do
   puts "production? : #{ENV['RACK_ENV']}"
   
 end
+
 
 LOCAL_RUNNER = 'D:\GitHub\NancyOwinHeroku-FluentMigrator\packages\FluentMigrator.Tools.1.3.1.0\tools\AnyCPU\40\Migrate.exe'
 LOCAL_TARGET = 'D:\GitHub\NancyOwinHeroku-FluentMigrator\NancyOwinHeroku-sample\bin\Debug\NancyOwinHeroku-sample.exe'
